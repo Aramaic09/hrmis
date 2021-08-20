@@ -1,0 +1,3 @@
+-- UPDATE USER TBL
+
+ALTER TABLE `users` ADD `photo` TEXT NULL DEFAULT NULL AFTER `image_path`;
